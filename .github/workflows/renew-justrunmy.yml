@@ -2,7 +2,7 @@ name: JustRunMy-renew
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 23 * * *' # 每天 7点(UTC 23点) 运行
+    - cron: '0 22 * * *' # 每天 7点(UTC 23点) 运行
 
 jobs:
   renew:
